@@ -1,0 +1,18 @@
+@extends('{{layout}}')
+
+@section('title')
+    {{ ${{modelNameLowerCase}}->name ?? 'Show {{modelTitle}}' }}
+@endsection
+
+@section('content')
+     
+                            <span class="header">Show {{modelTitle}}</span>
+                        
+                         
+                            <a class="btn btn-primary" href="{{ route('{{modelRoute}}.index') }}"> Back</a>
+                       
+                    <div class="body">
+                        {{viewRows}}
+                    </div>
+					
+@endsection

@@ -1,0 +1,21 @@
+@extends('{{layout}}')
+
+@section('title')
+    Create {{modelTitle}}
+@endsection
+
+@section('content')
+  
+  
+                        <span class="header">Create {{modelTitle}}</span>
+                  
+                  
+                        <form method="POST" action="{{ route('{{modelRoute}}.store') }}"  role="form" enctype="multipart/form-data">
+                            @csrf
+
+                            @include('{{modelView}}.form')
+
+                        </form>
+                        
+    </section>
+@endsection

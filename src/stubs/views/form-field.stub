@@ -1,0 +1,15 @@
+ 
+        
+        
+        <div class="form-group  mb-3">
+        
+  <label for="saksh_{{column}}" class="form-label">{{column}}</label>
+  
+  
+  <input type="text" class="form-control  ($errors->has('{{column}}') ? ' is-invalid' : '')  " id="saksh_{{column}}" placeholder="{{title}}">
+  
+    {!! $errors->first('{{column}}', '<div class="invalid-feedback">:message</div>') !!}
+</div>
+
+
+           
