@@ -1,7 +1,6 @@
 <?php
-
-namespace sakshstore\laravel-9-crud-generator;
-
+namespace Sakshstore\LaravelCrudGenerator;
+  
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
 

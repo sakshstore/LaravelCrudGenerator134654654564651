@@ -1,8 +1,8 @@
 <?php
-
-namespace sakshstore\laravel-9-crud-generator;
-
-use sakshstore\laravel-9-crud-generator\Commands\CrudGenerator;
+namespace Sakshstore\LaravelCrudGenerator;
+ 
+ 
+use Sakshstore\LaravelCrudGenerator\Commands\CrudGenerator;
 use Illuminate\Support\ServiceProvider;
 
 /**

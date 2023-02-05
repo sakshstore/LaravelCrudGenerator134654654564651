@@ -1,8 +1,10 @@
 <?php
 
-namespace sakshstore\laravel-9-crud-generator\Commands;
+namespace Sakshstore\LaravelCrudGenerator\Commands;
+ 
 
-use sakshstore\laravel-9-crud-generator\ModelGenerator;
+
+use Sakshstore\LaravelCrudGenerator\ModelGenerator;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;

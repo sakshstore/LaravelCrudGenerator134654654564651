@@ -1,7 +1,6 @@
 <?php
 
-
-namespace sakshstore\laravel-9-crud-generator\Commands;
+namespace Sakshstore\LaravelCrudGenerator\Commands;
 
 use Illuminate\Support\Str;
 
