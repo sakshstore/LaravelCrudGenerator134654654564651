@@ -31,8 +31,9 @@ class {{modelName}}Controller extends Controller
      */
     public function create()
     {
-        ${{modelNameLowerCase}} = new {{modelName}}();
-        return view('{{modelView}}.create', compact('{{modelNameLowerCase}}'));
+        
+		
+        return view('{{modelView}}.create'));
     }
 
     /**
@@ -59,7 +60,8 @@ class {{modelName}}Controller extends Controller
      */
     public function show({{modelName}} ${{modelNameLowerCase}})
     {
-        //${{modelNameLowerCase}} = {{modelName}}::find($id);
+        
+		
 
         return view('{{modelView}}.show', compact('{{modelNameLowerCase}}'));
     }
@@ -72,7 +74,8 @@ class {{modelName}}Controller extends Controller
      */
     public function edit({{modelName}} ${{modelNameLowerCase}})
     {
-      //  ${{modelNameLowerCase}} = {{modelName}}::find($id);
+     
+	 
 
         return view('{{modelView}}.edit', compact('{{modelNameLowerCase}}'));
     }
@@ -101,10 +104,10 @@ class {{modelName}}Controller extends Controller
      */
     public function destroy({{modelName}} ${{modelNameLowerCase}}  )
     {
-        //${{modelNameLowerCase}} = {{modelName}}::find($id)->delete();
+       
+	   
 
-
-${{modelNameLowerCase}} ->delete();
+		${{modelNameLowerCase}} ->delete();
         return redirect()->route('{{modelRoute}}.index')
             ->with('success', '{{modelName}} deleted successfully');
     }

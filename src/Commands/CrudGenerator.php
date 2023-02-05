@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 /**
  * Class CrudGenerator.
  *
- * @author  Awais <asargodha@gmail.com>
+ * @author  sakshstore <susheel2339@gmail.com>
  */
 class CrudGenerator extends GeneratorCommand
 {
@@ -96,11 +96,18 @@ class CrudGenerator extends GeneratorCommand
      */
     protected function buildModel()
     {
-        $modelPath =$this->_getModelPath(rand()."custom_". $this->name);
+        $modelPath =$this->_getModelPath(rand().  $this->name);
 
-        if ($this->files->exists($modelPath) && $this->ask('Already exist Model. Do you want overwrite (y/n)?', 'y') == 'n') {
-            return $this;
-        }
+       if ($this->files->exists($modelPath)  ) {
+        
+	 
+		
+        $modelPath =$this->_getModelPath(rand()."rename_it_". $this->name);
+
+
+
+        
+		}
 
         $this->info('Creating Model ...');
 
