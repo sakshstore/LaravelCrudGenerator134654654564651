@@ -10,13 +10,13 @@ This Laravel Generator package provides and generate Controller, Model (with elo
 - Will create **views** in Bootstrap [cleaned]
 
 ## Requirements
-    Laravel >= 5.5
-    PHP >= 7.1
+    Laravel >=9
+    PHP >= 8
 
 ## Installation
 1 - Install
 ```
-composer require sakshstore/crud-generator --dev
+composer require sakshstore/laravel-9-crud-generator
 ```
 2- Publish the default package's config
 ```
