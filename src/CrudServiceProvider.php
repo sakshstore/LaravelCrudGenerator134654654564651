@@ -2,7 +2,7 @@
 
 namespace sakshstore\laravel-9-crud-generator;
 
-use Ibex\CrudGenerator\Commands\CrudGenerator;
+use sakshstore\laravel-9-crud-generator\Commands\CrudGenerator;
 use Illuminate\Support\ServiceProvider;
 
 /**
