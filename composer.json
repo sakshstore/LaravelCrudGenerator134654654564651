@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "sakshstore\\CrudGenerator\\": "src/"
+            "sakshstore\\laravel-9-crud-generator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "sakshstore\\CrudGenerator\\CrudServiceProvider"
+                "sakshstore\\laravel-9-crud-generator\\CrudServiceProvider"
             ]
         }
     },
