@@ -1,8 +1,8 @@
 <?php
 
-namespace Ibex\CrudGenerator\Commands;
+namespace sakshstore\laravel-9-crud-generator\Commands;
 
-use Ibex\CrudGenerator\ModelGenerator;
+use sakshstore\laravel-9-crud-generator\ModelGenerator;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Arr;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ibex\CrudGenerator;
+namespace sakshstore\laravel-9-crud-generator;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
